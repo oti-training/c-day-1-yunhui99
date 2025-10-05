@@ -1,0 +1,101 @@
+# C build artifacts
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.exe
+*.elf
+
+# Object files
+*.slo
+*.lo
+*.o.*
+*.obj
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+*.pch.*
+
+# Libraries
+*.lib
+*.dll
+*.a
+*.la
+
+# Dist files
+*.dist
+*.dist-extra
+*.md5
+*.sum
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Generated files
+*.tab.c
+*.tab.h
+*.tab.o
+lex.yy.c
+lex.yy.o
+y.tab.h
+y.tab.c
+y.output
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build directories
+build/
+Debug/
+Release/
+cmake-build-*
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CMakeDoxyfile.in
+CMakeDoxyfile
+*.cmake
+
+# Dependencies
+deps/
+third-party/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Tests (if not needed in repo)
+!/tests/
+
