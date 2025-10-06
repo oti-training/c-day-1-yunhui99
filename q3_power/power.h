@@ -7,6 +7,9 @@
  * @param current Current in amps
  * @return Calculated power in watts
  */
+ 
+#define max_power 5.0f
+ 
 float calculate_power(float voltage, float current);
 
 /**
